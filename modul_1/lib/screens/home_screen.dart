@@ -43,6 +43,10 @@ class _HomeScreenState extends State<HomeScreen> {
     ];
 
     return Scaffold(
+      appBar: AppBar(
+        title: Text(
+          "2100016044"),
+      ),
       bottomNavigationBar: BottomNavigationBar(
         items: items,
         currentIndex: currentIndex,
